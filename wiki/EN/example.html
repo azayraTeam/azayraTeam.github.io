@@ -1,0 +1,65 @@
+<head>
+    <meta charset="UTF-8">
+    <title>AzayraWiki</title>
+
+    <link rel="shortcut icon" href="https://umaera.github.io/icons/website-icons/wiki-transparent.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/fonts.css">
+    <link rel="stylesheet" href="../assets/styles.css">
+    <link rel="stylesheet" href="../assets/themes.css">
+    <script src="../assets/theme-engine.js"></script>
+    <script src="../assets/script.js"></script>
+    <script src="../assets/script.js"></script>
+  </head>
+  
+  <body class="light-mode">
+  
+    <div class="header" id="header">
+      <h1>AzayraWiki <div style="font-size: 16px; white-space: none;">version 1.0</div> </h1>
+      <div class="theme-section">
+        <button id="ThemesButton" onclick="themesButtonClicked()">Switch Theme</button>
+        <div class="social-links">
+          <a href="mailto:azayraTeam@outlook.com" target="_blank">✉️</a>
+          <a href="https://www.youtube.com/@AzayraTeam" target="_blank">📽️</a>
+          <a href="https://github.com/azayraTeam" target="_blank">🐙</a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container" id="container">
+      <div class="sidebar" id="sidebar">
+        <div class="dropdown" id="dropdown" onclick="toggleDropdown(event)">
+          💖 Category
+          <ul>
+            <li onclick="">Project 1</li>
+            <li onclick="">Project 2</li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="content" id="content">
+        <h2 class="fade-in">Welcome to AzayraWiki! 🌸</h2>
+        <p class="fade-in">Select and category to see the project. This will be as cute as a panda! 🐼💖</p>
+  
+        <div class="note fade-in">
+          📌 <strong>Warning!</strong> Here is the note block!, we use like time or tip stuff. 🤗
+        </div>
+  
+        <h3>CodeBlock:</h3>
+        <pre>
+  function Init() {
+    console.log('HELLO WORLD!');
+  }
+        </pre>
+        <button class="copy-btn" onclick="copyCode()">Copy</button>
+  
+        <div class="embed fade-in">
+          <h3>Video embed:</h3>
+          <video controls>
+            <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
+  

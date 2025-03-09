@@ -1,0 +1,22 @@
+/* LIGHT ONE */
+.light-mode {
+    background-color: var(--color-background-light);
+    color: var(--color-text-light);
+}
+
+/* DARK ONE */
+.dark-mode {
+    background-color: var(--color-background-dark);
+    color: var(--color-text-dark);
+}
+
+.dark-mode .header {
+    background: linear-gradient(to right, var(--color-primary-dark), var(--color-secundary-dark));
+}
+  
+.dark-mode .sidebar {
+    background-color: var(--color-text-dark);
+}
+.dark-mode .content {
+    background-color: --color-background-dark;
+}

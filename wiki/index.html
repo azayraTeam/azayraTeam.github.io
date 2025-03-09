@@ -1,0 +1,52 @@
+<head>
+    <title>AzayraWiki</title>
+    <link rel="shortcut icon" href="https://umaera.github.io/icons/website-icons/wiki-transparent.png" type="image/x-icon">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="AzayraWiki | All you need to know about AzayraTeam is RIGHT HERE! ⭐">
+</head>
+<style>
+    body{
+        overflow: hidden;
+        background: linear-gradient(to bottom right, #ff266b, #a024ff, #326fff);
+        cursor:grab;
+    }
+    img{
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        width: 10%;
+        image-rendering: optimizeQuality;
+        image-orientation: from-image;
+        filter: blur(0.5px);
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+    }
+</style>
+<body>
+    <img src="https://umaera.github.io/icons/website-icons/wiki-white.png">
+</body>
+<script>
+const userLang = navigator.language || navigator.userLanguage;
+let i = 0;
+
+function after() {
+    if (userLang.startsWith('pt') || userLang.startsWith('br')) {
+        goPT();
+    } else {
+        goEN();
+    }
+}
+    
+setTimeout(after, 2000)
+ 
+function goPT() {
+    window.location.href = './EN/'; 
+}
+
+function goEN() {
+    window.location.href = './EN/'; 
+}
+</script>
